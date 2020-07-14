@@ -4,7 +4,7 @@
 
 import itertools
 def findsubsets(S,m):
-    return set(itertools.combinations(S, m))
+    return itertools.combinations(S, m)
   
   
 # Driver Code 
